@@ -465,3 +465,41 @@ body {
 .green__alaqan:hover{
    background: #11eb68;
 }
+
+/* ----------------------------------VIDEO------------------------------------ */
+
+.page__video{
+   width: 80%;
+   margin: 100px auto;
+}
+
+.alaqan__video {
+   position: relative;
+   padding-bottom: 56.25%;
+}
+
+.alaqan__video iframe{
+   position: absolute;
+   border-radius: 20px;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+
+/* ----------------------------------VS------------------------------------ */
+
+.page__vs {
+   background: #F5F5F7;
+   padding: 100px 0px;
+}
+.vs__header {
+   padding: 0px 145.5px;
+}
+.vs__title {
+   font-weight: 700;
+   font-size: 80px;
+   line-height: 120%;
+   text-align: center;
+   letter-spacing: -0.04em;
+}
