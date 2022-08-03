@@ -543,11 +543,11 @@ body {
 }
 .info__text{
    font-weight: 400;
-font-size: 18px;
-color: #1D1D1F;
-text-align: center;
-width: 280px;
-line-height: 140%;
+   font-size: 18px;
+   color: #1D1D1F;
+   text-align: center;
+   width: 280px;
+   line-height: 140%;
 }
 .info__logo{
    margin-top: 27px;
@@ -570,56 +570,56 @@ line-height: 140%;
 /* ----------------------------------plans--------------------------------- */
 .anywhere__title__plans{
    font-weight: 700;
-font-size: 80px;
-text-align: center;
-letter-spacing: -0.04em;
-color: #1D1D1F;
+   font-size: 80px;
+   text-align: center;
+   letter-spacing: -0.04em;
+   color: #1D1D1F;
 }
 .plans__text{
    font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-text-align: center;
-color: #1D1D1F;
-margin-top: 30px;
+   font-size: 32px;
+   line-height: 120%;
+   text-align: center;
+   color: #1D1D1F;
+   margin-top: 30px;
 }
 h3{
    font-weight: 700;
-font-size: 24px;
-line-height: 120%;
-color: #1D1D1F;
+   font-size: 24px;
+   line-height: 120%;
+   color: #1D1D1F;
 }
 h4{
    margin-top: 10px;
    font-weight: 700;
-font-size: 40px;
-line-height: 120%;
-color: #1D1D1F;
+   font-size: 40px;
+   line-height: 120%;
+   color: #1D1D1F;
 }
 h5{
    margin-top: 10px;
    font-weight: 600;
-font-size: 24px;
-line-height: 120%;
-color: #1D1D1F;
+   font-size: 24px;
+   line-height: 120%;
+   color: #1D1D1F;
 }
 .plans__block__text{
    margin-top: 40px;
    width: 261px;
    font-weight: 500;
-font-size: 18px;
-line-height: 140%;
-color: #86868B;
+   font-size: 18px;
+   line-height: 140%;
+   color: #86868B;
 }
 .plans__block__button{
    font-weight: 600;
-font-size: 18px;
-line-height: 120%;
-color: white;
-background: #1D1D1F;
-border-radius: 20px;
-padding: 10px 60px 12px 60px;
-transition: all .2s ;
+   font-size: 18px;
+   line-height: 120%;
+   color: white;
+   background: #1D1D1F;
+   border-radius: 20px;
+   padding: 10px 60px 12px 60px;
+   transition: all .2s ;
 }
 .plans__button{
    margin-top: 40px;
