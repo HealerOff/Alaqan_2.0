@@ -194,11 +194,12 @@ body {
 
 /* ----------------------------------HEADER------------------------------------ */
 .header {
+   position: relative;
    padding: 18px 0;
    top: 0;
    left: 0;
    right: 0;
-   z-index: 5;
+   z-index: 3;
    background: #1D1D1F;
 }
 
@@ -439,10 +440,57 @@ body {
 .card__right {
    
 }
-
+.card__number{
+   position: absolute;
+   margin-left: 156px;
+   margin-top: -75px;
+}
+.card__price{
+   position: absolute;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 120%;
+   color: #59ED94;
+   width: 89px;
+}
+.card__number2{
+   position: absolute;
+   margin-top: -20px;
+}
+.card__price__red{
+   position: absolute;
+   font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+color: #E86A76;
+width: 66px;
+}
+.card__number3{
+   position: absolute;
+   margin-top: 174px;
+   margin-left: 53px;
+}
+.card__number4{
+   position: absolute;
+   margin-left: 212px;
+   margin-top: 221px;
+}
+.card__number5{
+   position: absolute;
+   margin-left: 83px;
+   margin-top: 324px ;
+}
+.card__price__black{
+   position: absolute;
+   font-weight: 900;
+font-size: 18px;
+line-height: 120%;
+color: #1D1D1F;
+width: 79px; 
+}
 .anywhere__card__title {
    font-weight: 700;
-   font-size: 64px;
+   font-size: 63px;
    line-height: 120%;
    color: #59ED94;
    width: 422px;
@@ -490,9 +538,7 @@ body {
 }
 
 /* ----------------------------------VS------------------------------------ */
-.vs__container{
-   height: 958px;
-}
+
 .page__vs {
    background: #F5F5F7;
    padding: 100px 0px;
@@ -507,7 +553,60 @@ body {
    text-align: center;
    letter-spacing: -0.04em;
 }
-
+.vs__body__block{
+   margin-top: 100px ;
+   display: flex;
+   gap: 20px;
+}
+.vs__body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.vs__body__img{
+   margin-bottom: 30px;
+}
+.vs__body_title{
+   font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+text-align: center;
+color: #86868B;
+margin-bottom: 60px;
+}
+.vs__body__card{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.vs__body__card{
+   border-radius: 30px;
+   background-color: white;
+   width: 510px;
+   padding: 40px 20px;
+}
+.vs__body_title.black{
+   color: #1D1D1F;
+}
+.body__card__img{
+   text-align: center;
+}
+.body__card__text{
+   font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+color: #86868B;
+margin-top: 38px;
+width: 380px;
+text-align: center;
+}
+.body__card__text.black{
+   color: #1D1D1F;
+   width: 340px;  
+}
+.body__card__img.second{
+   margin-top: 20px;
+}
 
 /* ----------------------------------private--------------------------------- */
 .private{
@@ -543,11 +642,11 @@ body {
 }
 .info__text{
    font-weight: 400;
-   font-size: 18px;
-   color: #1D1D1F;
-   text-align: center;
-   width: 280px;
-   line-height: 140%;
+font-size: 18px;
+color: #1D1D1F;
+text-align: center;
+width: 280px;
+line-height: 140%;
 }
 .info__logo{
    margin-top: 27px;
@@ -570,56 +669,56 @@ body {
 /* ----------------------------------plans--------------------------------- */
 .anywhere__title__plans{
    font-weight: 700;
-   font-size: 80px;
-   text-align: center;
-   letter-spacing: -0.04em;
-   color: #1D1D1F;
+font-size: 80px;
+text-align: center;
+letter-spacing: -0.04em;
+color: #1D1D1F;
 }
 .plans__text{
    font-weight: 600;
-   font-size: 32px;
-   line-height: 120%;
-   text-align: center;
-   color: #1D1D1F;
-   margin-top: 30px;
+font-size: 32px;
+line-height: 120%;
+text-align: center;
+color: #1D1D1F;
+margin-top: 30px;
 }
 h3{
    font-weight: 700;
-   font-size: 24px;
-   line-height: 120%;
-   color: #1D1D1F;
+font-size: 24px;
+line-height: 120%;
+color: #1D1D1F;
 }
 h4{
    margin-top: 10px;
    font-weight: 700;
-   font-size: 40px;
-   line-height: 120%;
-   color: #1D1D1F;
+font-size: 40px;
+line-height: 120%;
+color: #1D1D1F;
 }
 h5{
    margin-top: 10px;
    font-weight: 600;
-   font-size: 24px;
-   line-height: 120%;
-   color: #1D1D1F;
+font-size: 24px;
+line-height: 120%;
+color: #1D1D1F;
 }
 .plans__block__text{
    margin-top: 40px;
    width: 261px;
    font-weight: 500;
-   font-size: 18px;
-   line-height: 140%;
-   color: #86868B;
+font-size: 18px;
+line-height: 140%;
+color: #86868B;
 }
 .plans__block__button{
    font-weight: 600;
-   font-size: 18px;
-   line-height: 120%;
-   color: white;
-   background: #1D1D1F;
-   border-radius: 20px;
-   padding: 10px 60px 12px 60px;
-   transition: all .2s ;
+font-size: 18px;
+line-height: 120%;
+color: white;
+background: #1D1D1F;
+border-radius: 20px;
+padding: 10px 60px 12px 60px;
+transition: all .2s ;
 }
 .plans__button{
    margin-top: 40px;
